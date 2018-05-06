@@ -8,5 +8,5 @@ import { AuthService } from './auth.service'
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  constructor(private auth: AuthService) { }
+  constructor(public auth: AuthService) { }
 }
