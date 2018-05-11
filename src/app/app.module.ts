@@ -12,7 +12,7 @@ import { MessageService } from './message.service';
 import {AuthService} from './auth.service';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
